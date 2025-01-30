@@ -17,6 +17,9 @@ const colorsLight = {
   purple500: '#44427D',
   red500: '#C13333',
   skeleton: '#A1A1A1',
+  midnightblue: '#220066',
+  sandybrown: '#EEBB43',
+  white: '#FFFFFF',
 } as const;
 
 const colorsDark = {

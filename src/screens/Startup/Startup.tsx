@@ -26,7 +26,8 @@ function Startup({ navigation }: RootScreenProps<Paths.Startup>) {
     if (isSuccess) {
       navigation.reset({
         index: 0,
-        routes: [{ name: Paths.Example }],
+        // routes: [{ name: Paths.Example }],
+        routes: [{ name: Paths.Umfa }],
       });
     }
   }, [isSuccess, navigation]);

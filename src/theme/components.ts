@@ -7,6 +7,15 @@ interface AllStyle
 
 export default ({ backgrounds, fonts, layout }: ComponentTheme) => {
   return {
+    button: {
+      ...layout.justifyCenter,
+      ...layout.itemsCenter,
+      ...backgrounds.midnightblue,
+      ...fonts.white,
+      borderRadius: 10,
+      height: 50,
+      width: 65,
+    },
     buttonCircle: {
       ...layout.justifyCenter,
       ...layout.itemsCenter,

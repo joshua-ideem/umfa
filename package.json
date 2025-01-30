@@ -17,6 +17,7 @@
     "postinstall": "npx patch-package"
   },
   "dependencies": {
+    "@ideem/zsm-react-native": "^2.2.42",
     "@react-native-masked-view/masked-view": "^0.3.1",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
@@ -26,8 +27,9 @@
     "ky": "^1.7.2",
     "react": "18.3.1",
     "react-error-boundary": "^4.0.13",
+    "react-hook-form": "^7.54.2",
     "react-i18next": "^15.0.2",
-    "react-native": "0.76.1",
+    "react-native": "0.76.5",
     "react-native-gesture-handler": "^2.20.0",
     "react-native-mmkv": "^3.1.0",
     "react-native-reanimated": "^3.15.4",
